@@ -1,0 +1,100 @@
+/*Nome: Michelly Hiratsuka Zorzi
+Curso: Ciência da Computação
+Semestre: 7º
+Faculdade: Faculdade Anhanguera de Bauru */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+	height: 100vh;
+	background-color: black;
+	color: /*cc*/ #E0FFFF;
+}
+
+.subtitle,
+.title {
+	text-align: center;
+	color: #E0FFFF;
+	width: 100vw;
+}
+
+.title {
+  font-size: 4em;
+  font-family: 'VT323', monospace;
+  line-height: 1.5em;
+}
+
+.boxr h1,
+.box h1,
+.subtitle {
+	font-family: 'VT323', monospace;
+	line-height: 1em;
+	padding-bottom: .5em;
+}
+
+.boxr,
+.box {
+	margin:0 auto;
+    width:600px;
+    background:#E0FFFF;
+    position:relative;
+    top:50px;
+    border:1px solid #000080;
+	border-radius: 0px 25px 0px 25px;
+	text-align: center;
+	color: #000080;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.box h1 {
+	color: #000080;
+	text-align: center;
+}
+
+.box label {
+    width:100%;
+    display: block;
+    padding:10px 0 10px 0;
+}
+
+.box label span {
+    display: block;
+    float:left;
+    width:250px;
+    text-align:right;
+    padding:5px 10px 0 0;
+}
+
+.box .input_text {
+	display: block;
+    padding:5px 5px;
+    width:200px;
+    background: #F0F8FF;
+	border-radius: 0px 25px 25px 0px;
+	margin-bottom: 10px;
+}
+
+.boxr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button{
+    margin:0 0 5px 0;
+    padding:10px 10px;
+    background:#2E2EFE;
+    border-radius:0px 25px 25px 25px;
+	border: 0px;
+    width:100px;
+	color: #E0FFFF;
+}
+
+#frase {
+	padding-top: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Michelly H. Zorzi</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nova+Mono&family=VT323&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	
+	<body>
+		<h1 class="title">Seja bem-vindo! </h1>
+		<h2 class="subtitle">Para se cadastrar, utilize o formulário abaixo: </h2>
+		
+		<form name="formulario" method="post" id="formulario">
+			<div class="box"> 
+				<h1>Formulário de Cadastro:</h1>
+  
+				<label> 
+					<span>Primeiro Nome:</span>
+					<input type="text" class="input_text" name="pnome" id="pnome"/>
+				</label>
+  
+				<label> 
+					<span>Último Nome:</span>
+					<input type="text" class="input_text" name="unome" id="unome"/>
+				</label>
+				
+				<label> 
+					<span>Ano de Nascimento:</span>
+					<input type="text" class="input_text" name="anonasc" id="anonasc"/>
+				</label>
+  
+				<label>
+					<span>E-mail</span>
+					<input type="text" class="input_text" name="email" id="email"/>
+				</label>
+
+				<button type="button" class="button" onclick="validation()">Enviar</button>
+			</div>
+			
+			<div class="boxr">
+				<p id="titlef"></p>
+				<p id="nomep"></p>
+				<p id="nomeu"></p>
+				<p id="nascano"></p>
+				<p id="email2"></p>
+				<p id="frase"></p>
+			</div>
+		</form> 
+	</body>
+</html>
